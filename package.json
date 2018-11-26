@@ -1,0 +1,37 @@
+{
+  "name": "gymsports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladk96/GymSports.git"
+  },
+  "keywords": [
+    "gym",
+    "sport",
+    "site"
+  ],
+  "author": "Vlad Karpus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladk96/GymSports/issues"
+  },
+  "homepage": "https://github.com/vladk96/GymSports#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "imagemin-pngquant": "^6.0.0"
+  }
+}
