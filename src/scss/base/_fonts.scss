@@ -1,0 +1,49 @@
+/* Fonts */
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../fonts/OpenSansBold.woff2') format('woff2'),
+         url('../fonts/OpenSansBold.woff') format('woff'),
+         url('../fonts/OpenSansBold.svg#OpenSansBold') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansCondLight';
+    src: url('../fonts/OpenSansCondLight.woff2') format('woff2'),
+         url('../fonts/OpenSansCondLight.woff') format('woff'),
+         url('../fonts/OpenSansCondLight.svg#OpenSansCondLight') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansCondLightItalic';
+    src: url('../fonts/OpenSansCondLightItalic.woff2') format('woff2'),
+         url('../fonts/OpenSansCondLightItalic.woff') format('woff'),
+         url('../fonts/OpenSansCondLightItalic.svg#OpenSansCondLightItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansItalic';
+    src: url('../fonts/OpenSansItalic.woff2') format('woff2'),
+         url('../fonts/OpenSansItalic.woff') format('woff'),
+         url('../fonts/OpenSansItalic.svg#OpenSansItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../fonts/OpenSansLight.woff2') format('woff2'),
+         url('../fonts/OpenSansLight.woff') format('woff'),
+         url('../fonts/OpenSansLight.svg#OpenSansLight') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('../fonts/OpenSansSemibold.woff2') format('woff2'),
+         url('../fonts/OpenSansSemibold.woff') format('woff'),
+         url('../fonts/OpenSansSemibold.svg#OpenSansSemibold') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansSemiboldItalic';
+    src: url('../fonts/OpenSansSemiboldItalic.woff2') format('woff2'),
+         url('../fonts/OpenSansSemiboldItalic.woff') format('woff'),
+         url('../fonts/OpenSansSemiboldItalic.svg#OpenSansSemiboldItalic') format('svg');
+} // end fonts
