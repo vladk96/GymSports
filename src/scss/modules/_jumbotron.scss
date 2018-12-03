@@ -1,0 +1,39 @@
+// jumbotron
+.jumbotron {
+    max-width: 540px;
+    box-sizing: border-box;
+    border-bottom: 4px solid #72d0f4;
+    margin: 0;
+    padding: 1.4rem 0 1.5rem 1rem;
+    background-color: rgba(114, 208, 244, .4);
+    text-align: center;
+    &__title {
+        margin: 0 0 .9375rem;
+        text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.08);
+        color: #fefefe;
+        font-family: 'OpenSansCondLight', sans-serif;
+        font-size: $h1-size;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    &__slogan {
+        margin: 0 0 .68rem;
+        color: #fff;
+        font-family: 'OpenSansLight', sans-serif;
+        font-size: $h4-size;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    &__text {
+        margin: 0 0 1.07rem;
+        padding-right: 7.5rem;
+        color: #fff;
+        font-family: 'OpenSansLight', sans-serif;
+        font-size: .875rem;
+        line-height: 1.1rem;
+        text-align: left;
+    }
+    &__button {
+        margin-left: -1rem;
+    }
+} // end jumbotron

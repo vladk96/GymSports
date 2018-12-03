@@ -1,0 +1,21 @@
+// section banner
+.section-banner {
+    position: relative;
+    height: 100vh;
+    background-color: #b7b7b7;
+    background: url(../images/banner.jpg) no-repeat center bottom;
+    background-size: cover;
+    &__jumbotron {
+        position: absolute;
+        top: calc(40% - 110px);
+    }
+    &__link-down {
+        display: block;
+        position: absolute;
+        left: calc(50% - 101px); // half from width
+        bottom: 48px;
+    }
+    &__link-img {
+
+    }
+} // end section banner

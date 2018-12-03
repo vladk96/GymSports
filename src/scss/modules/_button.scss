@@ -1,0 +1,16 @@
+// button
+.button {
+    display: inline-block;
+    color: #fff;
+    font-family: 'OpenSansSemibold', sans-serif;
+    font-size: .75rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,.79);
+    border-radius: 4px;
+    padding: 1.25em 3em;
+    transition: all .4s ease;
+    &:hover {
+        background-color: rgba(255, 255, 255, .3);
+    }
+} //end button

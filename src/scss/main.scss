@@ -7,11 +7,20 @@
 ===================================== */
 
 @import 'base/fonts';
+@import 'base/helpers';
+@import 'base/mixins';
+@import 'base/normalize';
+@import 'base/variables';
+
+/* MODULES
+===================================== */
+
+@import 'modules/jumbotron';
+@import 'modules/button';
 
 /* LAYOUT
 ===================================== */
 
+@import 'layout/section-banner';
 
-/* MODULES
-===================================== */
 
