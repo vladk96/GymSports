@@ -1,0 +1,50 @@
+// section-contact
+.section-contact {
+    background-color: $blue;
+    padding: .875rem 0;
+    &__flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__tel {
+        margin-left: .9rem;
+        color: #fff;
+        font-family: 'OpenSansLight', sans-serif;
+        font-size: .75rem;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    &__tel::before {
+        content: '';
+        display: inline-block;
+        vertical-align: bottom;
+        width: 14px;
+        height: 14px;
+        margin-right: .68rem;
+        background: url(../images/svg/phone.svg) no-repeat center center;
+    }
+    // media
+    @media screen and (max-width: 375px) {
+        &__flex {
+            justify-content: center;
+        }
+        &__tel {
+            width: 100%;
+            margin-left: -0.9rem;
+            margin-bottom: .9rem;
+            text-align: center;
+        }
+    }
+} // end section contact
+
+// social-links 
+.social-list {
+    display: flex;
+    align-items: center;
+
+    &__link {
+        margin-right: .9rem;
+    }
+}
