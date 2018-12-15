@@ -1,0 +1,23 @@
+//section heading
+.section-heading {
+    font-family: 'OpenSansLight', sans-serif;
+    padding: 7rem 0 5rem;
+} // end section heading
+
+// heading 
+.heading {
+    width: 53%;
+    padding-right: 6%;
+    margin-left: auto;
+    text-align: center;
+    &__title {
+        font-size: $h2-size;
+        color: #505961;
+        margin: 0 0 1rem;
+    }
+    &__text {
+        font-size: 1rem;
+        color: #8b9297;
+        line-height: 1.5rem;
+    }
+} // end heading

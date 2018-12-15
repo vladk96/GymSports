@@ -475,6 +475,87 @@ template {
   .button:hover {
     background-color: rgba(255, 255, 255, 0.3); }
 
+.box-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .box-list__item {
+    position: relative;
+    max-width: 370px;
+    border-bottom: 4px solid #00bff0;
+    background-color: #b7b7b7; }
+  .box-list__item:not(:last-child) {
+    margin-right: 1%; }
+  .box-list__head {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #72d0f4;
+    color: #fff;
+    padding: 1.18rem 0;
+    text-transform: uppercase; }
+  .box-list__title {
+    font-family: 'OpenSansSemibold', sans-serif;
+    font-size: 18px;
+    padding-left: 1.25rem;
+    margin: 0; }
+    .box-list__title > span {
+      font-family: 'OpenSansSemiboldItalic', sans-serif; }
+  .box-list__text {
+    font-family: 'OpenSansBold', sans-serif;
+    font-size: .68rem;
+    margin: 0;
+    padding-right: 1.25rem; }
+  .box-list__img {
+    display: block;
+    max-width: 100%; }
+  .box-list__desc {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0%;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(114, 208, 244, 0.57);
+    -webkit-transition: all .4s  ease;
+    -o-transition: all .4s  ease;
+    transition: all .4s  ease; }
+  .box-list__desc-title {
+    font-family: 'OpenSansSemibold', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 40%; }
+  .box-list__desc-text {
+    margin: 0;
+    font-family: 'OpenSansCondLight', sans-serif;
+    font-size: 1rem; }
+  .box-list__item:hover .box-list__desc {
+    height: 100%;
+    visibility: visible; }
+  .box-list__link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+
 /* LAYOUT
 ===================================== */
 .section-banner {
@@ -677,5 +758,27 @@ template {
       .nav__submenu-link {
         color: #fff;
         font-size: .875rem; } }
+
+.section-heading {
+  font-family: 'OpenSansLight', sans-serif;
+  padding: 7rem 0 5rem; }
+
+.heading {
+  width: 53%;
+  padding-right: 6%;
+  margin-left: auto;
+  text-align: center; }
+  .heading__title {
+    font-size: 38px;
+    color: #505961;
+    margin: 0 0 1rem; }
+  .heading__text {
+    font-size: 1rem;
+    color: #8b9297;
+    line-height: 1.5rem; }
+
+@media screen and (max-width: 660px) {
+  .section-video-boxes__box-list {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

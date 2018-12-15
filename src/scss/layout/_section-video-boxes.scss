@@ -1,0 +1,8 @@
+// section video boxes 
+.section-video-boxes {
+    @media screen and (max-width: 660px) {
+       &__box-list {
+           display: none;
+       }
+    }
+} // end section video boxes 
